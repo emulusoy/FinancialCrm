@@ -14,3 +14,4 @@ C:\Users\Mustafa ulusoy\source\repos\FinancialCrm\FinancialCrm\bin\Debug\EntityF
 C:\Users\Mustafa ulusoy\source\repos\FinancialCrm\FinancialCrm\bin\Debug\EntityFramework.SqlServer.xml
 C:\Users\Mustafa ulusoy\source\repos\FinancialCrm\FinancialCrm\obj\Debug\Financia.1DE9CF8F.Up2Date
 C:\Users\Mustafa ulusoy\source\repos\FinancialCrm\FinancialCrm\obj\Debug\FinancialCrm.FrmBilling.resources
+C:\Users\Mustafa ulusoy\source\repos\FinancialCrm\FinancialCrm\obj\Debug\FinancialCrm.FrmDashboard.resources

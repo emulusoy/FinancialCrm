@@ -14,8 +14,7 @@ namespace FinancialCrm
 
         private void FrmBilling_Load(object sender, EventArgs e)
         {
-            var values=database.TblBill.ToList();
-            dataGridView1.DataSource = values;
+            
         }
 
         private void btnCreateBill_Click(object sender, EventArgs e)
