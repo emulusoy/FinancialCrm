@@ -26,7 +26,7 @@ Ana Ekranlar ve Özellikler 🌟
 Uygulamada banka hareketlerini, kategorileri, harcamaları ve daha birçok işlemi görebilirsiniz. Veritabanında tutulan verilerle yapılan işlemleri görüntüleyebilirsiniz. 👀
 
 1. DashboardForm 📊
-2. ![Ekran görüntüsü 2025-01-15 175823](https://github.com/user-attachments/assets/97b71d8f-1660-46fe-9afe-ede56a6e2cd1)
+![Ekran görüntüsü 2025-01-15 175823](https://github.com/user-attachments/assets/97b71d8f-1660-46fe-9afe-ede56a6e2cd1)
 
 Giriş işlemi gerçekleştikten sonra açılacak ana ekran burasıdır.
 
