@@ -50,5 +50,4 @@ Kullanıcının bankada yaptığı harcamalar burada görülebilir.
 
 Kategoriler burada görüntülenir.
 
-Proje Yapısı ve Kullanıcı Arayüzü:
-Bu proje, kullanıcı dostu bir arayüz ve veritabanı entegrasyonu ile tasarlanmıştır. Kullanıcılar, finansal işlemleri kolayca takip edebilir ve tüm işlemleri veritabanı üzerinden görüntüleyebilir. 💡📊
+
