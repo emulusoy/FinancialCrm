@@ -1,4 +1,4 @@
-Proje Adı 💻✨
+Proje Adı 💻✨ FinancialCRM
 
 Uygulamamız, kullanıcıların giriş yapabileceği veya üye olabileceği bir Login/Register ekranı ile başlar. Veritabanında tutulan tabloya yeni kullanıcılar ekleyebilir veya mevcut kullanıcılarla giriş yapabilirsiniz. 🛠️
 
