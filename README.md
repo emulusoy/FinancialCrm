@@ -3,6 +3,7 @@ Proje Adı 💻✨
 Uygulamamız, kullanıcıların giriş yapabileceği veya üye olabileceği bir Login/Register ekranı ile başlar. Veritabanında tutulan tabloya yeni kullanıcılar ekleyebilir veya mevcut kullanıcılarla giriş yapabilirsiniz. 🛠️
 
 📝Projemiz C# ve SQL tabanlı bir tekrar projesidir. 🔄
+
 📝Projedeki tüm butonların yönlendirmeleri, BaseForm adındaki bir sınıf üzerinden yapılmıştır. Böylece her bir formda butonlar, tek tek form açma işlemi yerine fonksiyonlarla bağlanmıştır. 💡
 
 Örnek Kod:📝
@@ -14,7 +15,7 @@ Login Ekranı 🔑
 
 ![Ekran görüntüsü 2025-01-15 175750](https://github.com/user-attachments/assets/3e19be93-0ac4-4b81-8ea6-299fc5b1a080)
 
-Eğer Sign butonuna tıklarsanız, butonda yazan "Login" yazısı "Register" olarak değişir ve üyelik ekranına yönlendirilirsiniz. Şifre veya kullanıcı adı bulunmazsa, Sign butonu kırmızı yanar ve uyarı verir. 🚨
+Eğer Sign butonuna tıklarsanız, butonda yazan "Login" yazısı "Register" olarak değişir ve üyelik ekranına yönlendirilirsiniz. Şifre veya kullanıcı adı bulunmazsa, Sign butonu kırmızı yanar ve uyarı verir. 🚨🚨🚨🚨🚨🚨
 
 Sign Ekranı 📝
 
