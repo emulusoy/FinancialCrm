@@ -1,10 +1,11 @@
 Proje Adı 💻✨
+
 Uygulamamız, kullanıcıların giriş yapabileceği veya üye olabileceği bir Login/Register ekranı ile başlar. Veritabanında tutulan tabloya yeni kullanıcılar ekleyebilir veya mevcut kullanıcılarla giriş yapabilirsiniz. 🛠️
 
-Projemiz C# ve SQL tabanlı bir tekrar projesidir. 🔄
-Projedeki tüm butonların yönlendirmeleri, BaseForm adındaki bir sınıf üzerinden yapılmıştır. Böylece her bir formda butonlar, tek tek form açma işlemi yerine fonksiyonlarla bağlanmıştır. 💡
+📝Projemiz C# ve SQL tabanlı bir tekrar projesidir. 🔄
+📝Projedeki tüm butonların yönlendirmeleri, BaseForm adındaki bir sınıf üzerinden yapılmıştır. Böylece her bir formda butonlar, tek tek form açma işlemi yerine fonksiyonlarla bağlanmıştır. 💡
 
-Örnek Kod:
+Örnek Kod:📝
 
 ![Ekran görüntüsü 2025-01-15 181606](https://github.com/user-attachments/assets/faf4c093-fefa-485d-8dd5-95695aa1d17f)
 
