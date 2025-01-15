@@ -15,3 +15,9 @@ C:\Users\Mustafa ulusoy\source\repos\FinancialCrm\FinancialCrm\bin\Debug\EntityF
 C:\Users\Mustafa ulusoy\source\repos\FinancialCrm\FinancialCrm\obj\Debug\Financia.1DE9CF8F.Up2Date
 C:\Users\Mustafa ulusoy\source\repos\FinancialCrm\FinancialCrm\obj\Debug\FinancialCrm.FrmBilling.resources
 C:\Users\Mustafa ulusoy\source\repos\FinancialCrm\FinancialCrm\obj\Debug\FinancialCrm.FrmDashboard.resources
+C:\Users\Mustafa ulusoy\source\repos\FinancialCrm\FinancialCrm\obj\Debug\FinancialCrm.FrmSpendings.resources
+C:\Users\Mustafa ulusoy\source\repos\FinancialCrm\FinancialCrm\obj\Debug\FinancialCrm.BaseForm.resources
+C:\Users\Mustafa ulusoy\source\repos\FinancialCrm\FinancialCrm\obj\Debug\FinancialCrm.FrmBankProcess.resources
+C:\Users\Mustafa ulusoy\source\repos\FinancialCrm\FinancialCrm\obj\Debug\FinancialCrm.FrmCategory.resources
+C:\Users\Mustafa ulusoy\source\repos\FinancialCrm\FinancialCrm\obj\Debug\FinancialCrm.FrmSettings.resources
+C:\Users\Mustafa ulusoy\source\repos\FinancialCrm\FinancialCrm\obj\Debug\FinancialCrm.Login.resources

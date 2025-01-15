@@ -5,7 +5,7 @@ using FinancialCrm.Models;
 
 namespace FinancialCrm
 {
-    public partial class FrmBanks : Form
+    public partial class FrmBanks : BaseForm
     {
         public FrmBanks()
         {
@@ -15,7 +15,7 @@ namespace FinancialCrm
 
         private void FrmBanks_Load(object sender, EventArgs e)
         {
-
+            
             //Para getirme
             var ziraatBalance = database.TblBank.Where(x => x.BankTitle == "Ziraat Bank").Select(y => y.BankBalance).FirstOrDefault();
             var vakifBalance = database.TblBank.Where(x => x.BankTitle == "Vakif Bank").Select(y => y.BankBalance).FirstOrDefault();
@@ -40,11 +40,31 @@ namespace FinancialCrm
 
         }
 
-        private void button3_Click(object sender, EventArgs e)
+        private void btnCategory_Click(object sender, EventArgs e)
         {
-            FrmBilling form = new FrmBilling();
-            form.Show();
-            this.Hide();
+            OpenFormByButtonName("btnCategory");
+        }
+        private void btnBank_Click(object sender, EventArgs e)
+        {
+            OpenFormByButtonName("btnBank");
+        }
+
+        private void btnBill_Click(object sender, EventArgs e)
+        {
+            OpenFormByButtonName("btnBill");
+        }
+
+        private void btnSpending_Click(object sender, EventArgs e)
+        {
+            OpenFormByButtonName("btnSpending");
+        }
+        private void btnBankProcess_Click(object sender, EventArgs e)
+        {
+            OpenFormByButtonName("btnBankProcess");
+        }
+        private void btnDashboard_Click(object sender, EventArgs e)
+        {
+            OpenFormByButtonName("btnDashboard");
         }
     }
 }

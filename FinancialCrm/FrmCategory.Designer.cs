@@ -1,6 +1,6 @@
 ﻿namespace FinancialCrm
 {
-    partial class FrmBilling
+    partial class FrmCategory
     {
         /// <summary>
         /// Required designer variable.
@@ -39,24 +39,28 @@
             this.btnBill = new System.Windows.Forms.Button();
             this.btnBank = new System.Windows.Forms.Button();
             this.btnCategory = new System.Windows.Forms.Button();
-            this.panel3 = new System.Windows.Forms.Panel();
-            this.btnUpdateBill = new System.Windows.Forms.Button();
-            this.btnRemoveBill = new System.Windows.Forms.Button();
-            this.btnCreateBill = new System.Windows.Forms.Button();
-            this.btnBillList = new System.Windows.Forms.Button();
-            this.txtPeriod = new System.Windows.Forms.TextBox();
-            this.label5 = new System.Windows.Forms.Label();
-            this.txtQuantity = new System.Windows.Forms.TextBox();
-            this.label4 = new System.Windows.Forms.Label();
-            this.txtTitle = new System.Windows.Forms.TextBox();
-            this.label3 = new System.Windows.Forms.Label();
-            this.txtId = new System.Windows.Forms.TextBox();
             this.label2 = new System.Windows.Forms.Label();
-            this.dataGridView1 = new System.Windows.Forms.DataGridView();
+            this.label3 = new System.Windows.Forms.Label();
+            this.panel3 = new System.Windows.Forms.Panel();
+            this.label4 = new System.Windows.Forms.Label();
+            this.panel4 = new System.Windows.Forms.Panel();
+            this.label5 = new System.Windows.Forms.Label();
+            this.panel5 = new System.Windows.Forms.Panel();
+            this.label6 = new System.Windows.Forms.Label();
+            this.panel6 = new System.Windows.Forms.Panel();
+            this.label9 = new System.Windows.Forms.Label();
+            this.panel7 = new System.Windows.Forms.Panel();
+            this.label8 = new System.Windows.Forms.Label();
+            this.panel8 = new System.Windows.Forms.Panel();
+            this.label7 = new System.Windows.Forms.Label();
             this.panel2.SuspendLayout();
             this.panel1.SuspendLayout();
             this.panel3.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
+            this.panel4.SuspendLayout();
+            this.panel5.SuspendLayout();
+            this.panel6.SuspendLayout();
+            this.panel7.SuspendLayout();
+            this.panel8.SuspendLayout();
             this.SuspendLayout();
             // 
             // panel2
@@ -67,7 +71,7 @@
             this.panel2.Location = new System.Drawing.Point(-9, -22);
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(946, 94);
-            this.panel2.TabIndex = 15;
+            this.panel2.TabIndex = 13;
             // 
             // label1
             // 
@@ -76,9 +80,9 @@
             this.label1.ForeColor = System.Drawing.Color.Transparent;
             this.label1.Location = new System.Drawing.Point(29, 36);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(135, 39);
+            this.label1.Size = new System.Drawing.Size(211, 39);
             this.label1.TabIndex = 0;
-            this.label1.Text = "Bill Form";
+            this.label1.Text = "Category Form";
             // 
             // panel1
             // 
@@ -94,7 +98,7 @@
             this.panel1.Location = new System.Drawing.Point(-9, 66);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(217, 618);
-            this.panel1.TabIndex = 14;
+            this.panel1.TabIndex = 12;
             // 
             // btnExit
             // 
@@ -107,6 +111,7 @@
             this.btnExit.TabIndex = 7;
             this.btnExit.Text = "Exit";
             this.btnExit.UseVisualStyleBackColor = false;
+
             // 
             // btnSetting
             // 
@@ -198,182 +203,178 @@
             this.btnCategory.UseVisualStyleBackColor = false;
             this.btnCategory.Click += new System.EventHandler(this.btnCategory_Click);
             // 
-            // panel3
+            // label2
             // 
-            this.panel3.Controls.Add(this.btnUpdateBill);
-            this.panel3.Controls.Add(this.btnRemoveBill);
-            this.panel3.Controls.Add(this.btnCreateBill);
-            this.panel3.Controls.Add(this.btnBillList);
-            this.panel3.Controls.Add(this.txtPeriod);
-            this.panel3.Controls.Add(this.label5);
-            this.panel3.Controls.Add(this.txtQuantity);
-            this.panel3.Controls.Add(this.label4);
-            this.panel3.Controls.Add(this.txtTitle);
-            this.panel3.Controls.Add(this.label3);
-            this.panel3.Controls.Add(this.txtId);
-            this.panel3.Controls.Add(this.label2);
-            this.panel3.Location = new System.Drawing.Point(229, 105);
-            this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(671, 268);
-            this.panel3.TabIndex = 16;
-            // 
-            // btnUpdateBill
-            // 
-            this.btnUpdateBill.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(34)))), ((int)(((byte)(112)))), ((int)(((byte)(147)))));
-            this.btnUpdateBill.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.btnUpdateBill.ForeColor = System.Drawing.Color.Transparent;
-            this.btnUpdateBill.Location = new System.Drawing.Point(516, 135);
-            this.btnUpdateBill.Name = "btnUpdateBill";
-            this.btnUpdateBill.Size = new System.Drawing.Size(140, 50);
-            this.btnUpdateBill.TabIndex = 11;
-            this.btnUpdateBill.Text = "Update Payment";
-            this.btnUpdateBill.UseVisualStyleBackColor = false;
-            this.btnUpdateBill.Click += new System.EventHandler(this.btnUpdateBill_Click_1);
-            // 
-            // btnRemoveBill
-            // 
-            this.btnRemoveBill.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(34)))), ((int)(((byte)(112)))), ((int)(((byte)(147)))));
-            this.btnRemoveBill.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.btnRemoveBill.ForeColor = System.Drawing.Color.Transparent;
-            this.btnRemoveBill.Location = new System.Drawing.Point(347, 135);
-            this.btnRemoveBill.Name = "btnRemoveBill";
-            this.btnRemoveBill.Size = new System.Drawing.Size(140, 50);
-            this.btnRemoveBill.TabIndex = 10;
-            this.btnRemoveBill.Text = "Delete Payment";
-            this.btnRemoveBill.UseVisualStyleBackColor = false;
-            this.btnRemoveBill.Click += new System.EventHandler(this.btnRemoveBill_Click_1);
-            // 
-            // btnCreateBill
-            // 
-            this.btnCreateBill.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(34)))), ((int)(((byte)(112)))), ((int)(((byte)(147)))));
-            this.btnCreateBill.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.btnCreateBill.ForeColor = System.Drawing.Color.Transparent;
-            this.btnCreateBill.Location = new System.Drawing.Point(516, 72);
-            this.btnCreateBill.Name = "btnCreateBill";
-            this.btnCreateBill.Size = new System.Drawing.Size(140, 50);
-            this.btnCreateBill.TabIndex = 9;
-            this.btnCreateBill.Text = "New Payment";
-            this.btnCreateBill.UseVisualStyleBackColor = false;
-            this.btnCreateBill.Click += new System.EventHandler(this.btnCreateBill_Click_1);
-            // 
-            // btnBillList
-            // 
-            this.btnBillList.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(34)))), ((int)(((byte)(112)))), ((int)(((byte)(147)))));
-            this.btnBillList.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.btnBillList.ForeColor = System.Drawing.Color.Transparent;
-            this.btnBillList.Location = new System.Drawing.Point(347, 70);
-            this.btnBillList.Name = "btnBillList";
-            this.btnBillList.Size = new System.Drawing.Size(140, 50);
-            this.btnBillList.TabIndex = 8;
-            this.btnBillList.Text = "Payment List";
-            this.btnBillList.UseVisualStyleBackColor = false;
-            this.btnBillList.Click += new System.EventHandler(this.btnBillList_Click_1);
-            // 
-            // txtPeriod
-            // 
-            this.txtPeriod.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(34)))), ((int)(((byte)(112)))), ((int)(((byte)(147)))));
-            this.txtPeriod.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.txtPeriod.Location = new System.Drawing.Point(132, 192);
-            this.txtPeriod.Name = "txtPeriod";
-            this.txtPeriod.Size = new System.Drawing.Size(186, 20);
-            this.txtPeriod.TabIndex = 7;
-            // 
-            // label5
-            // 
-            this.label5.AutoSize = true;
-            this.label5.Font = new System.Drawing.Font("Calibri", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.label5.Location = new System.Drawing.Point(48, 187);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(78, 26);
-            this.label5.TabIndex = 6;
-            this.label5.Text = "Period :";
-            // 
-            // txtQuantity
-            // 
-            this.txtQuantity.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(34)))), ((int)(((byte)(112)))), ((int)(((byte)(147)))));
-            this.txtQuantity.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.txtQuantity.Location = new System.Drawing.Point(132, 140);
-            this.txtQuantity.Name = "txtQuantity";
-            this.txtQuantity.Size = new System.Drawing.Size(186, 20);
-            this.txtQuantity.TabIndex = 5;
-            // 
-            // label4
-            // 
-            this.label4.AutoSize = true;
-            this.label4.Font = new System.Drawing.Font("Calibri", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.label4.Location = new System.Drawing.Point(28, 135);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(98, 26);
-            this.label4.TabIndex = 4;
-            this.label4.Text = "Quantity :";
-            // 
-            // txtTitle
-            // 
-            this.txtTitle.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(34)))), ((int)(((byte)(112)))), ((int)(((byte)(147)))));
-            this.txtTitle.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.txtTitle.Location = new System.Drawing.Point(132, 88);
-            this.txtTitle.Name = "txtTitle";
-            this.txtTitle.Size = new System.Drawing.Size(186, 20);
-            this.txtTitle.TabIndex = 3;
+            this.label2.AutoSize = true;
+            this.label2.Font = new System.Drawing.Font("Calibri", 36F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.label2.Location = new System.Drawing.Point(243, 122);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(265, 59);
+            this.label2.TabIndex = 14;
+            this.label2.Text = "CATEGORIES";
             // 
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Font = new System.Drawing.Font("Calibri", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.label3.Location = new System.Drawing.Point(66, 83);
+            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.label3.Location = new System.Drawing.Point(208, 171);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(60, 26);
-            this.label3.TabIndex = 2;
-            this.label3.Text = "Title :";
+            this.label3.Size = new System.Drawing.Size(1070, 24);
+            this.label3.TabIndex = 15;
+            this.label3.Text = "_________________________________________________________________________________" +
+    "_________________________";
             // 
-            // txtId
+            // panel3
             // 
-            this.txtId.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(34)))), ((int)(((byte)(112)))), ((int)(((byte)(147)))));
-            this.txtId.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.txtId.Location = new System.Drawing.Point(132, 36);
-            this.txtId.Name = "txtId";
-            this.txtId.Size = new System.Drawing.Size(186, 20);
-            this.txtId.TabIndex = 1;
+            this.panel3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(219)))), ((int)(((byte)(226)))), ((int)(((byte)(239)))));
+            this.panel3.Controls.Add(this.label4);
+            this.panel3.Location = new System.Drawing.Point(253, 200);
+            this.panel3.Name = "panel3";
+            this.panel3.Size = new System.Drawing.Size(228, 126);
+            this.panel3.TabIndex = 16;
             // 
-            // label2
+            // label4
             // 
-            this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Calibri", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.label2.Location = new System.Drawing.Point(4, 31);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(122, 26);
-            this.label2.TabIndex = 0;
-            this.label2.Text = "Payment ID :";
+            this.label4.AutoSize = true;
+            this.label4.Font = new System.Drawing.Font("Calibri", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.label4.Location = new System.Drawing.Point(25, 50);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(159, 33);
+            this.label4.TabIndex = 0;
+            this.label4.Text = "\'\'\'\'\'\'\'\'\'\'\'\'\'\'\'\'\'\'\'\'\'\'\'\'";
             // 
-            // dataGridView1
+            // panel4
             // 
-            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Location = new System.Drawing.Point(229, 391);
-            this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.Size = new System.Drawing.Size(671, 226);
-            this.dataGridView1.TabIndex = 17;
+            this.panel4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(165)))), ((int)(((byte)(191)))), ((int)(((byte)(204)))));
+            this.panel4.Controls.Add(this.label5);
+            this.panel4.Location = new System.Drawing.Point(253, 348);
+            this.panel4.Name = "panel4";
+            this.panel4.Size = new System.Drawing.Size(228, 126);
+            this.panel4.TabIndex = 17;
             // 
-            // FrmBilling
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.Font = new System.Drawing.Font("Calibri", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.label5.Location = new System.Drawing.Point(25, 48);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(159, 33);
+            this.label5.TabIndex = 1;
+            this.label5.Text = "\'\'\'\'\'\'\'\'\'\'\'\'\'\'\'\'\'\'\'\'\'\'\'\'";
+            // 
+            // panel5
+            // 
+            this.panel5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(219)))), ((int)(((byte)(226)))), ((int)(((byte)(239)))));
+            this.panel5.Controls.Add(this.label6);
+            this.panel5.Location = new System.Drawing.Point(253, 497);
+            this.panel5.Name = "panel5";
+            this.panel5.Size = new System.Drawing.Size(228, 126);
+            this.panel5.TabIndex = 18;
+            // 
+            // label6
+            // 
+            this.label6.AutoSize = true;
+            this.label6.Font = new System.Drawing.Font("Calibri", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.label6.Location = new System.Drawing.Point(25, 47);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(159, 33);
+            this.label6.TabIndex = 2;
+            this.label6.Text = "\'\'\'\'\'\'\'\'\'\'\'\'\'\'\'\'\'\'\'\'\'\'\'\'";
+            // 
+            // panel6
+            // 
+            this.panel6.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(219)))), ((int)(((byte)(226)))), ((int)(((byte)(239)))));
+            this.panel6.Controls.Add(this.label9);
+            this.panel6.Location = new System.Drawing.Point(639, 497);
+            this.panel6.Name = "panel6";
+            this.panel6.Size = new System.Drawing.Size(228, 126);
+            this.panel6.TabIndex = 21;
+            // 
+            // label9
+            // 
+            this.label9.AutoSize = true;
+            this.label9.Font = new System.Drawing.Font("Calibri", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.label9.Location = new System.Drawing.Point(40, 47);
+            this.label9.Name = "label9";
+            this.label9.Size = new System.Drawing.Size(159, 33);
+            this.label9.TabIndex = 5;
+            this.label9.Text = "\'\'\'\'\'\'\'\'\'\'\'\'\'\'\'\'\'\'\'\'\'\'\'\'";
+            // 
+            // panel7
+            // 
+            this.panel7.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(165)))), ((int)(((byte)(191)))), ((int)(((byte)(204)))));
+            this.panel7.Controls.Add(this.label8);
+            this.panel7.Location = new System.Drawing.Point(639, 348);
+            this.panel7.Name = "panel7";
+            this.panel7.Size = new System.Drawing.Size(228, 126);
+            this.panel7.TabIndex = 20;
+            // 
+            // label8
+            // 
+            this.label8.AutoSize = true;
+            this.label8.Font = new System.Drawing.Font("Calibri", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.label8.Location = new System.Drawing.Point(40, 48);
+            this.label8.Name = "label8";
+            this.label8.Size = new System.Drawing.Size(159, 33);
+            this.label8.TabIndex = 4;
+            this.label8.Text = "\'\'\'\'\'\'\'\'\'\'\'\'\'\'\'\'\'\'\'\'\'\'\'\'";
+            // 
+            // panel8
+            // 
+            this.panel8.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(219)))), ((int)(((byte)(226)))), ((int)(((byte)(239)))));
+            this.panel8.Controls.Add(this.label7);
+            this.panel8.Location = new System.Drawing.Point(639, 200);
+            this.panel8.Name = "panel8";
+            this.panel8.Size = new System.Drawing.Size(228, 126);
+            this.panel8.TabIndex = 19;
+            // 
+            // label7
+            // 
+            this.label7.AutoSize = true;
+            this.label7.Font = new System.Drawing.Font("Calibri", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.label7.Location = new System.Drawing.Point(40, 50);
+            this.label7.Name = "label7";
+            this.label7.Size = new System.Drawing.Size(159, 33);
+            this.label7.TabIndex = 3;
+            this.label7.Text = "\'\'\'\'\'\'\'\'\'\'\'\'\'\'\'\'\'\'\'\'\'\'\'\'";
+            // 
+            // FrmCategory
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(928, 662);
-            this.Controls.Add(this.dataGridView1);
+            this.Controls.Add(this.panel6);
+            this.Controls.Add(this.panel5);
+            this.Controls.Add(this.panel7);
+            this.Controls.Add(this.panel8);
+            this.Controls.Add(this.panel4);
             this.Controls.Add(this.panel3);
+            this.Controls.Add(this.label3);
+            this.Controls.Add(this.label2);
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.panel1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
-            this.Name = "FrmBilling";
+            this.Name = "FrmCategory";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "FrmBilling";
-            this.Load += new System.EventHandler(this.FrmBilling_Load);
+            this.Text = "FrmCategory";
+            this.Load += new System.EventHandler(this.FrmCategory_Load);
             this.panel2.ResumeLayout(false);
             this.panel2.PerformLayout();
             this.panel1.ResumeLayout(false);
             this.panel3.ResumeLayout(false);
             this.panel3.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
+            this.panel4.ResumeLayout(false);
+            this.panel4.PerformLayout();
+            this.panel5.ResumeLayout(false);
+            this.panel5.PerformLayout();
+            this.panel6.ResumeLayout(false);
+            this.panel6.PerformLayout();
+            this.panel7.ResumeLayout(false);
+            this.panel7.PerformLayout();
+            this.panel8.ResumeLayout(false);
+            this.panel8.PerformLayout();
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
@@ -390,19 +391,19 @@
         private System.Windows.Forms.Button btnBill;
         private System.Windows.Forms.Button btnBank;
         private System.Windows.Forms.Button btnCategory;
-        private System.Windows.Forms.Panel panel3;
-        private System.Windows.Forms.Button btnUpdateBill;
-        private System.Windows.Forms.Button btnRemoveBill;
-        private System.Windows.Forms.Button btnCreateBill;
-        private System.Windows.Forms.Button btnBillList;
-        private System.Windows.Forms.TextBox txtPeriod;
-        private System.Windows.Forms.Label label5;
-        private System.Windows.Forms.TextBox txtQuantity;
-        private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.TextBox txtTitle;
-        private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.TextBox txtId;
         private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.DataGridView dataGridView1;
+        private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.Panel panel3;
+        private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.Panel panel4;
+        private System.Windows.Forms.Label label5;
+        private System.Windows.Forms.Panel panel5;
+        private System.Windows.Forms.Label label6;
+        private System.Windows.Forms.Panel panel6;
+        private System.Windows.Forms.Label label9;
+        private System.Windows.Forms.Panel panel7;
+        private System.Windows.Forms.Label label8;
+        private System.Windows.Forms.Panel panel8;
+        private System.Windows.Forms.Label label7;
     }
 }

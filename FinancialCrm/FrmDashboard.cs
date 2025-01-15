@@ -10,7 +10,7 @@ using System.Windows.Forms;
 using FinancialCrm.Models;
 namespace FinancialCrm
 {
-    public partial class FrmDashboard : Form
+    public partial class FrmDashboard : BaseForm
     {
         public FrmDashboard()
         {
@@ -18,9 +18,10 @@ namespace FinancialCrm
         }
         FinancialCrmDbEntities database=new FinancialCrmDbEntities();
         int count = 0;
+
         private void FrmDashboard_Load(object sender, EventArgs e)
         {
-            var totalBalance = database.TblBank.Sum(x => x.BankBalance);
+        var totalBalance = database.TblBank.Sum(x => x.BankBalance);
             lblTotalBalance.Text = totalBalance.ToString()+"₺";
             var lastBankProcess=database.TblBankProcess.OrderByDescending(x=>x.BankProcessId).Take(1).Select(x=>x.Amount).FirstOrDefault();
             lbllastBankProcessAmount.Text = lastBankProcess.ToString() + "₺";
@@ -84,12 +85,33 @@ namespace FinancialCrm
                 lblBillAmount.Text = billTitle4.ToString();
             }
         }
-
-        private void button2_Click(object sender, EventArgs e)
+        private void btnCategory_Click(object sender, EventArgs e)
         {
-            FrmBanks go=new FrmBanks();
-            go.Show();
-            this.Hide   ();
+            OpenFormByButtonName("btnCategory");
         }
+        private void btnBank_Click(object sender, EventArgs e)
+        {
+            OpenFormByButtonName("btnBank");
+        }
+
+        private void btnBill_Click(object sender, EventArgs e)
+        {
+            OpenFormByButtonName("btnBill");
+        }
+
+        private void btnSpending_Click(object sender, EventArgs e)
+        {
+            OpenFormByButtonName("btnSpending");
+        }
+        private void btnBankProcess_Click(object sender, EventArgs e)
+        {
+            OpenFormByButtonName("btnBankProcess");
+        }
+        private void btnDashboard_Click(object sender, EventArgs e)
+        {
+            OpenFormByButtonName("btnDashboard");
+        }
+
+        
     }
 }
