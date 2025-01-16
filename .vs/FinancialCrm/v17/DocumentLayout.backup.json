@@ -1,85 +1,12 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\Mustafa ulusoy\\source\\repos\\FinancialCrm\\",
-  "Documents": [
-    {
-      "AbsoluteMoniker": "D:0:0:{821BC910-72BD-4003-BF55-0ABD73DF7B56}|FinancialCrm\\FinancialCrm.csproj|c:\\users\\mustafa ulusoy\\source\\repos\\financialcrm\\financialcrm\\frmbilling.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{821BC910-72BD-4003-BF55-0ABD73DF7B56}|FinancialCrm\\FinancialCrm.csproj|solutionrelative:financialcrm\\frmbilling.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{821BC910-72BD-4003-BF55-0ABD73DF7B56}|FinancialCrm\\FinancialCrm.csproj|c:\\users\\mustafa ulusoy\\source\\repos\\financialcrm\\financialcrm\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{821BC910-72BD-4003-BF55-0ABD73DF7B56}|FinancialCrm\\FinancialCrm.csproj|solutionrelative:financialcrm\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{821BC910-72BD-4003-BF55-0ABD73DF7B56}|FinancialCrm\\FinancialCrm.csproj|c:\\users\\mustafa ulusoy\\source\\repos\\financialcrm\\financialcrm\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{821BC910-72BD-4003-BF55-0ABD73DF7B56}|FinancialCrm\\FinancialCrm.csproj|solutionrelative:financialcrm\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{821BC910-72BD-4003-BF55-0ABD73DF7B56}|FinancialCrm\\FinancialCrm.csproj|c:\\users\\mustafa ulusoy\\source\\repos\\financialcrm\\financialcrm\\frmspendings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{821BC910-72BD-4003-BF55-0ABD73DF7B56}|FinancialCrm\\FinancialCrm.csproj|solutionrelative:financialcrm\\frmspendings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    }
-  ],
+  "Documents": [],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": [
-        {
-          "DockedWidth": 200,
-          "SelectedChildIndex": 0,
-          "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "FrmBilling.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\Mustafa ulusoy\\source\\repos\\FinancialCrm\\FinancialCrm\\FrmBilling.cs",
-              "RelativeDocumentMoniker": "FinancialCrm\\FrmBilling.cs",
-              "ToolTip": "C:\\Users\\Mustafa ulusoy\\source\\repos\\FinancialCrm\\FinancialCrm\\FrmBilling.cs [Design]*",
-              "RelativeToolTip": "FinancialCrm\\FrmBilling.cs [Design]*",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-15T14:59:25.328Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Login.cs",
-              "DocumentMoniker": "C:\\Users\\Mustafa ulusoy\\source\\repos\\FinancialCrm\\FinancialCrm\\Login.cs",
-              "RelativeDocumentMoniker": "FinancialCrm\\Login.cs",
-              "ToolTip": "C:\\Users\\Mustafa ulusoy\\source\\repos\\FinancialCrm\\FinancialCrm\\Login.cs",
-              "RelativeToolTip": "FinancialCrm\\Login.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAG8AAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-15T14:37:50.012Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Login.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\Mustafa ulusoy\\source\\repos\\FinancialCrm\\FinancialCrm\\Login.cs",
-              "RelativeDocumentMoniker": "FinancialCrm\\Login.cs",
-              "ToolTip": "C:\\Users\\Mustafa ulusoy\\source\\repos\\FinancialCrm\\FinancialCrm\\Login.cs [Design]",
-              "RelativeToolTip": "FinancialCrm\\Login.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-15T14:08:16.46Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "FrmSpendings.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\Mustafa ulusoy\\source\\repos\\FinancialCrm\\FinancialCrm\\FrmSpendings.cs",
-              "RelativeDocumentMoniker": "FinancialCrm\\FrmSpendings.cs",
-              "ToolTip": "C:\\Users\\Mustafa ulusoy\\source\\repos\\FinancialCrm\\FinancialCrm\\FrmSpendings.cs [Design]",
-              "RelativeToolTip": "FinancialCrm\\FrmSpendings.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-15T14:07:20.453Z",
-              "EditorCaption": " [Design]"
-            }
-          ]
-        }
-      ]
+      "DocumentGroups": []
     }
   ]
 }

@@ -1,12 +1,53 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\Mustafa ulusoy\\source\\repos\\FinancialCrm\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{821BC910-72BD-4003-BF55-0ABD73DF7B56}|FinancialCrm\\FinancialCrm.csproj|c:\\users\\mustafa ulusoy\\source\\repos\\financialcrm\\financialcrm\\baseform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{821BC910-72BD-4003-BF55-0ABD73DF7B56}|FinancialCrm\\FinancialCrm.csproj|solutionrelative:financialcrm\\baseform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{821BC910-72BD-4003-BF55-0ABD73DF7B56}|FinancialCrm\\FinancialCrm.csproj|c:\\users\\mustafa ulusoy\\source\\repos\\financialcrm\\financialcrm\\baseform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{821BC910-72BD-4003-BF55-0ABD73DF7B56}|FinancialCrm\\FinancialCrm.csproj|solutionrelative:financialcrm\\baseform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": []
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "BaseForm.cs",
+              "DocumentMoniker": "C:\\Users\\Mustafa ulusoy\\source\\repos\\FinancialCrm\\FinancialCrm\\BaseForm.cs",
+              "RelativeDocumentMoniker": "FinancialCrm\\BaseForm.cs",
+              "ToolTip": "C:\\Users\\Mustafa ulusoy\\source\\repos\\FinancialCrm\\FinancialCrm\\BaseForm.cs",
+              "RelativeToolTip": "FinancialCrm\\BaseForm.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAAQwFsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-15T15:15:14.099Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "BaseForm.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Mustafa ulusoy\\source\\repos\\FinancialCrm\\FinancialCrm\\BaseForm.cs",
+              "RelativeDocumentMoniker": "FinancialCrm\\BaseForm.cs",
+              "ToolTip": "C:\\Users\\Mustafa ulusoy\\source\\repos\\FinancialCrm\\FinancialCrm\\BaseForm.cs [Design]",
+              "RelativeToolTip": "FinancialCrm\\BaseForm.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-15T15:15:11.732Z",
+              "EditorCaption": " [Design]"
+            }
+          ]
+        }
+      ]
     }
   ]
 }
